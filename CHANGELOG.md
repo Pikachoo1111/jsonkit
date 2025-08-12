@@ -64,6 +64,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Enhanced README with comprehensive feature documentation
 - Improved package metadata and classifiers
 - Updated development status to Beta
+- Renamed package from jsonutilkit to jsonkit for simplicity
 
 ### Fixed
 - Regex patterns in AI processor for proper number/boolean extraction

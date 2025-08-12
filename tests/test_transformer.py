@@ -3,7 +3,7 @@ Tests for JSON transformer functionality.
 """
 
 import pytest
-from jsonutilkit.transformer import JSONTransformer
+from jsonkit.transformer import JSONTransformer
 
 
 class TestJSONTransformer:

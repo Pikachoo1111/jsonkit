@@ -1,7 +1,8 @@
 """
-JSONUtilKit - A lightweight Python toolkit for JSON manipulation.
+JSONKit - A lightweight Python toolkit for JSON manipulation.
 
-This package provides utilities for reading, writing, validating, and manipulating JSON data.
+This package provides utilities for reading, writing, validating, and
+manipulating JSON data.
 """
 
 __version__ = "0.1.0"

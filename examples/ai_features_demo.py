@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
-Comprehensive demo of JSONUtilKit's AI-focused features.
+Comprehensive demo of JSONKit's AI-focused features.
 
 This example demonstrates how to use the advanced AI processing capabilities
 for handling JSON data from AI models and performing post-processing tasks.
 """
 
 import json
-from jsonutilkit import (
-    AIJSONProcessor, JSONExtractor, JSONCleaner, 
+from jsonkit import (
+    AIJSONProcessor, JSONExtractor, JSONCleaner,
     JSONTransformer, SchemaGenerator
 )
 
@@ -340,7 +340,7 @@ def demo_schema_generator():
 
 def main():
     """Run all demos."""
-    print("JSONUtilKit AI Features Comprehensive Demo")
+    print("JSONKit AI Features Comprehensive Demo")
     print("=" * 60)
     
     demo_ai_json_processor()
@@ -352,13 +352,13 @@ def main():
     print("\n" + "=" * 60)
     print("DEMO COMPLETE")
     print("=" * 60)
-    print("\nThis demo showcased JSONUtilKit's advanced AI-focused features:")
+    print("\nThis demo showcased JSONKit's advanced AI-focused features:")
     print("• AI JSON Processing: Extract and fix JSON from AI responses")
     print("• Advanced Extraction: Complex path-based data extraction")
     print("• Intelligent Cleaning: Remove artifacts and sanitize data")
     print("• Smart Transformation: Reshape data for ML and AI workflows")
     print("• Schema Generation: Auto-generate schemas from AI data samples")
-    print("\nThese features make JSONUtilKit ideal for AI/ML data pipelines!")
+    print("\nThese features make JSONKit ideal for AI/ML data pipelines!")
 
 
 if __name__ == "__main__":

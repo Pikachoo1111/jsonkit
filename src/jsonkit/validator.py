@@ -100,7 +100,8 @@ class JSONValidator:
             elif isinstance(schema_obj, type):
                 if not isinstance(obj, schema_obj):
                     errors.append(
-                        f"Expected {schema_obj.__name__} at {path}, got {type(obj).__name__}"
+                        f"Expected {schema_obj.__name__} at {path}, "
+                        f"got {type(obj).__name__}"
                     )
 
             elif schema_obj == "string":

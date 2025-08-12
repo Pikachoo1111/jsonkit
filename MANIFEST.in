@@ -2,8 +2,7 @@ include README.md
 include LICENSE
 include CHANGELOG.md
 include pyproject.toml
-include setup.cfg
-recursive-include src/jsonutilkit *.py
+recursive-include src/jsonkit *.py
 recursive-include tests *.py
 recursive-include examples *.py
 recursive-exclude * __pycache__

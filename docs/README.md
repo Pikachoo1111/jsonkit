@@ -1,6 +1,6 @@
-# JSONUtilKit Documentation
+# JSONKit Documentation
 
-This directory contains documentation for JSONUtilKit.
+This directory contains documentation for JSONKit.
 
 ## Structure
 
@@ -23,7 +23,7 @@ make html
 ### JSONHandler
 
 ```python
-from jsonutilkit import JSONHandler
+from jsonkit import JSONHandler
 
 handler = JSONHandler("data.json")
 handler.set("key", "value")
@@ -33,7 +33,7 @@ value = handler.get("key")
 ### JSONValidator
 
 ```python
-from jsonutilkit import JSONValidator
+from jsonkit import JSONValidator
 
 is_valid, error = JSONValidator.validate_json_string('{"key": "value"}')
 is_valid, error = JSONValidator.validate_json_file("data.json")
@@ -42,7 +42,7 @@ is_valid, error = JSONValidator.validate_json_file("data.json")
 ### JSONParser
 
 ```python
-from jsonutilkit import JSONParser
+from jsonkit import JSONParser
 
 data = JSONParser.parse_string('{"key": "value"}')
 json_str = JSONParser.to_string(data, indent=2)

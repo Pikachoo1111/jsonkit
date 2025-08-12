@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "jsonutilkit"
+name = "jsonkit"
 version = "0.1.0"
 description = "A comprehensive Python toolkit for JSON processing with advanced AI-focused features for modern data workflows"
 readme = "README.md"
@@ -52,9 +52,9 @@ docs = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/Pikachoo1111/jsonutilkit"
-Repository = "https://github.com/Pikachoo1111/jsonutilkit.git"
-"Bug Tracker" = "https://github.com/Pikachoo1111/jsonutilkit/issues"
+Homepage = "https://github.com/Pikachoo1111/jsonkit"
+Repository = "https://github.com/Pikachoo1111/jsonkit.git"
+"Bug Tracker" = "https://github.com/Pikachoo1111/jsonkit/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
@@ -84,7 +84,7 @@ extend-exclude = '''
 profile = "black"
 multi_line_output = 3
 line_length = 88
-known_first_party = ["jsonutilkit"]
+known_first_party = ["jsonkit"]
 
 [tool.pytest.ini_options]
 minversion = "7.0"
@@ -95,7 +95,7 @@ python_classes = ["Test*"]
 python_functions = ["test_*"]
 
 [tool.coverage.run]
-source = ["src/jsonutilkit"]
+source = ["src/jsonkit"]
 omit = ["*/tests/*"]
 
 [tool.coverage.report]
@@ -107,7 +107,7 @@ exclude_lines = [
 ]
 
 [tool.mypy]
-python_version = "3.8"
+python_version = "3.9"
 warn_return_any = true
 warn_unused_configs = true
 disallow_untyped_defs = true

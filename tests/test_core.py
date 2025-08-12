@@ -8,7 +8,7 @@ from pathlib import Path
 
 import pytest
 
-from jsonutilkit.core import JSONHandler
+from jsonkit.core import JSONHandler
 
 
 class TestJSONHandler:

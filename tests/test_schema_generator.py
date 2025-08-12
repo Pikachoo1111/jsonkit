@@ -3,7 +3,7 @@ Tests for JSON schema generator functionality.
 """
 
 import pytest
-from jsonutilkit.schema_generator import SchemaGenerator
+from jsonkit.schema_generator import SchemaGenerator
 
 
 class TestSchemaGenerator:
