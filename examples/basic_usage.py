@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 """
-Basic usage examples for JSONKit.
+Basic usage examples for PyJSONKit.
 """
 
 import tempfile
 from pathlib import Path
 
-from jsonkit import JSONHandler, JSONValidator, JSONParser
+from pyjsonkit import JSONHandler, JSONValidator, JSONParser
 
 
 def main():
-    """Demonstrate basic JSONKit functionality."""
-    print("JSONKit Basic Usage Examples")
+    """Demonstrate basic PyJSONKit functionality."""
+    print("PyJSONKit Basic Usage Examples")
     print("=" * 40)
     
     # Create a temporary file for demonstration

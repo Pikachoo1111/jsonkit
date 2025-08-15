@@ -3,7 +3,7 @@ Tests for JSON cleaner functionality.
 """
 
 import pytest
-from jsonkit.cleaner import JSONCleaner
+from pyjsonkit.cleaner import JSONCleaner
 
 
 class TestJSONCleaner:

@@ -8,7 +8,7 @@ from pathlib import Path
 
 import pytest
 
-from jsonkit.validator import JSONValidator
+from pyjsonkit.validator import JSONValidator
 
 
 class TestJSONValidator:

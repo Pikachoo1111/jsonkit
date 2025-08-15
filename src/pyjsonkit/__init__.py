@@ -1,8 +1,8 @@
 """
-JSONKit - A lightweight Python toolkit for JSON manipulation.
+PyJSONKit - A comprehensive Python toolkit for JSON processing with AI features.
 
 This package provides utilities for reading, writing, validating, and
-manipulating JSON data.
+manipulating JSON data, with advanced AI-focused features for modern data workflows.
 """
 
 __version__ = "0.1.0"

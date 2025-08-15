@@ -1,6 +1,6 @@
-# Publishing Guide for JSONKit
+# Publishing Guide for PyJSONKit
 
-This guide explains how to publish JSONKit to PyPI.
+This guide explains how to publish PyJSONKit to PyPI.
 
 ## Prerequisites
 
@@ -22,7 +22,7 @@ This guide explains how to publish JSONKit to PyPI.
 twine upload --repository testpypi dist/*
 
 # Test installation from TestPyPI
-pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ jsonkit
+pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ pyjsonkit
 ```
 
 ### 2. Publish to PyPI
@@ -32,7 +32,7 @@ pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://
 twine upload dist/*
 
 # Test installation from PyPI
-pip install jsonkit
+pip install pyjsonkit
 ```
 
 ## Authentication
@@ -103,7 +103,7 @@ twine upload dist/*
 ## Post-Publication
 
 After publishing:
-1. Test installation: `pip install jsonkit`
+1. Test installation: `pip install pyjsonkit`
 2. Update GitHub repository with release notes
 3. Consider creating a GitHub release
 4. Share on social media or relevant communities

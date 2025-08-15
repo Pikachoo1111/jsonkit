@@ -1,4 +1,4 @@
-# JSONKit
+# PyJSONKit
 
 A comprehensive Python toolkit for JSON processing with advanced AI-focused features for modern data workflows.
 
@@ -20,14 +20,14 @@ A comprehensive Python toolkit for JSON processing with advanced AI-focused feat
 ## Installation
 
 ```bash
-pip install jsonkit
+pip install pyjsonkit
 ```
 
 ## Quick Start
 
 ### Basic JSON Operations
 ```python
-from jsonkit import JSONHandler
+from pyjsonkit import JSONHandler
 
 # Create a JSON handler
 handler = JSONHandler("data.json")
@@ -44,7 +44,7 @@ is_valid = handler.validate()
 
 ### AI-Focused Features
 ```python
-from jsonkit import AIJSONProcessor, JSONExtractor, JSONCleaner
+from pyjsonkit import AIJSONProcessor, JSONExtractor, JSONCleaner
 
 # Extract JSON from AI responses
 ai_response = '''

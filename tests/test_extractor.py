@@ -3,7 +3,7 @@ Tests for JSON extractor functionality.
 """
 
 import pytest
-from jsonkit.extractor import JSONExtractor
+from pyjsonkit.extractor import JSONExtractor
 
 
 class TestJSONExtractor:

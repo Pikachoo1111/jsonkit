@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "jsonkit"
+name = "pyjsonkit"
 version = "0.1.0"
 description = "A comprehensive Python toolkit for JSON processing with advanced AI-focused features for modern data workflows"
 readme = "README.md"
@@ -84,7 +84,7 @@ extend-exclude = '''
 profile = "black"
 multi_line_output = 3
 line_length = 88
-known_first_party = ["jsonkit"]
+known_first_party = ["pyjsonkit"]
 
 [tool.pytest.ini_options]
 minversion = "7.0"
@@ -95,7 +95,7 @@ python_classes = ["Test*"]
 python_functions = ["test_*"]
 
 [tool.coverage.run]
-source = ["src/jsonkit"]
+source = ["src/pyjsonkit"]
 omit = ["*/tests/*"]
 
 [tool.coverage.report]

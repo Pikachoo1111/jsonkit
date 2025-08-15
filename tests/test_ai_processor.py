@@ -4,7 +4,7 @@ Tests for AI JSON processor functionality.
 
 import json
 import pytest
-from jsonkit.ai_processor import AIJSONProcessor
+from pyjsonkit.ai_processor import AIJSONProcessor
 
 
 class TestAIJSONProcessor:

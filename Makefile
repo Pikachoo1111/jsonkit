@@ -14,7 +14,7 @@ test:  ## Run tests
 	pytest
 
 test-cov:  ## Run tests with coverage
-	pytest --cov=src/jsonkit --cov-report=html --cov-report=term
+	pytest --cov=src/pyjsonkit --cov-report=html --cov-report=term
 
 lint:  ## Run linting checks
 	flake8 src/ tests/
